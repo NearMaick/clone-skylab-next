@@ -26,7 +26,6 @@ export default function Home() {
       </Flex>
 
       <Flex
-        height="100%"
         gridArea="form"
         backgroundColor="gray.700"
         borderRadius="md"
