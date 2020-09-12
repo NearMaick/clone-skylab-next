@@ -1,5 +1,3 @@
-// import Head from 'next/head'
-
 import { Button, Flex, Grid, Heading, Link, Text } from '@chakra-ui/core';
 import Divider from '../components/Divider';
 import Input from '../components/Input';
