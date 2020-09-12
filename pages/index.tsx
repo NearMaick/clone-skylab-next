@@ -1,6 +1,6 @@
 // import Head from 'next/head'
 
-import { Button, Flex, Grid, Heading, Input, Link } from '@chakra-ui/core';
+import { Button, Flex, Grid, Heading, Input, Link, Text } from '@chakra-ui/core';
 
 export default function Home() {
   return (
@@ -71,6 +71,22 @@ export default function Home() {
         >
           ENTRAR
         </Button>
+
+        <Text
+          textAlign="center"
+          fontSize="sm"
+          color="gray.300"
+          marginTop={6}
+        >
+          Não tem conta? {" "}
+          <Link
+            color="purple.600"
+            fontWeight="bold"
+            _hover={{ color: 'purple.500' }}
+          >
+            Registre-se
+          </Link>
+        </Text>
       </Flex>
     </Grid>
   )
